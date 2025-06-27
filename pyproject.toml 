@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minimocker"
+version = "0.1.0"
+description = "A lightweight mock API server with JWT and hot reload"
+authors = [
+  { name="Your Name" }
+]
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "watchdog",
+  "python-jose"
+]
+requires-python = ">=3.7"

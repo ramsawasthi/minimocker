@@ -1,0 +1,18 @@
+{
+  "jwt_secret": "mysecret",
+  "routes": [
+    {
+      "path": "/api/user",
+      "method": "GET",
+      "auth": true,
+      "response": {
+        "status": 200,
+        "body": {
+          "name": "Alice",
+          "email": "alice@example.com"
+        },
+        "delay": 300
+      }
+    }
+  ]
+}

@@ -7,7 +7,7 @@ name = "minimocker"
 version = "0.1.0"
 description = "A lightweight mock API server with JWT and hot reload"
 authors = [
-  { name="Your Name" }
+  { name="Ram Awasthi" }
 ]
 dependencies = [
   "fastapi",

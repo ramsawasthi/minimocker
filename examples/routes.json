@@ -1,0 +1,35 @@
+{
+  "routes": [
+    {
+      "path": "/ping",
+      "method": "GET",
+      "response": {
+        "status": 200,
+        "body": {"message": "pong"},
+        "delay": 0
+      },
+      "auth": false
+    },
+    {
+      "path": "/hello/{name}",
+      "method": "GET",
+      "response": {
+        "status": 200,
+        "body": {"message": "Hello Dear {name}"},
+        "delay": 0
+      },
+      "auth": false
+    },
+    {
+      "path": "/greet",
+      "method": "GET",
+      "response": {
+        "status": 200,
+        "body": {
+          "message": "Greeting!! Hello, {name}"
+        }
+      },
+      "auth": false
+    }
+  ]
+}

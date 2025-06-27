@@ -16,7 +16,7 @@ setup(
             'minimocker=minimocker.cli:main',
         ],
     },
-    author="Your Name",
+    author="Ram Awasthi",
     description="A lightweight mock API server with JWT and hot reload",
     python_requires=">=3.7",
 )

@@ -1,0 +1,5 @@
+fastapi==0.115.14
+python_jose==3.5.0
+setuptools==80.9.0
+uvicorn==0.34.3
+watchdog==6.0.0
